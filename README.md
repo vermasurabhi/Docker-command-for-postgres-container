@@ -1,7 +1,7 @@
 # Docker-command-for-postgres-container
 
 
-## Bash File
+## Bash Command
 
 
 ```
