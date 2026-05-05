@@ -15,3 +15,14 @@ docker run -d \
   postgres:15
 
   ```
+
+## Window Command
+
+```
+docker run -d --name postgres-container -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=secret -e POSTGRES_DB=mydb -p 5432:5432 -v postgres_data:/var/lib/postgresql/data postgres:15
+```
+
+or short version
+```
+docker run -d -p 5432:5432 -e POSTGRES_PASSWORD=secret postgres
+```
